@@ -54,6 +54,7 @@ fun ActivitasPertama(modifier: Modifier){
             Row() {
                 //logoumy
                 val gambar = painterResource(R.drawable.logoumy)
+                //Image
                 Image(
                     painter = gambar,
                     contentDescription = null,

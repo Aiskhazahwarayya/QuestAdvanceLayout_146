@@ -62,6 +62,7 @@ fun ActivitasPertama(modifier: Modifier){
                 Spacer(modifier = Modifier.width(30.dp))
 
                 Column() {
+                    //nama
                     Text(
                         stringResource(R.string.nama),
                         fontSize = 30.sp,

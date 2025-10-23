@@ -32,11 +32,11 @@ import androidx.compose.ui.unit.sp
 fun ActivitasPertama(modifier: Modifier){
     //ini column
     Column(modifier = Modifier.padding(top=100.dp)
+        //fillMaxSize
         .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         //prodi dan univ
-
         Text(stringResource( R.string.prodi),
             fontSize = 35.sp,
             fontWeight = FontWeight.Bold)

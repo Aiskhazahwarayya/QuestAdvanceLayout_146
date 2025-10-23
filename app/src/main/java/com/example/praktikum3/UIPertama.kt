@@ -35,6 +35,8 @@ fun ActivitasPertama(modifier: Modifier){
         .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        //prodi dan univ
+
         Text(stringResource( R.string.prodi),
             fontSize = 35.sp,
             fontWeight = FontWeight.Bold)

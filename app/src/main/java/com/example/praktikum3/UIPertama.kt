@@ -35,7 +35,20 @@ fun ActivitasPertama(modifier: Modifier){
         .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // Konten selanjutnya akan ditambahkan di sini
+        Text(stringResource( R.string.prodi),
+            fontSize = 35.sp,
+            fontWeight = FontWeight.Bold)
+        Text( stringResource( R.string.univ),
+            fontSize = 22.sp)
+        Spacer(modifier = Modifier.height( 25.dp))
+        Card (modifier = Modifier
+            .fillMaxWidth( 1f)
+            .padding( all = 12.dp),
+            colors = CardDefaults.cardColors(containerColor = Color.DarkGray
+            )
+        ){
+            //
+        }
     }
 }
 

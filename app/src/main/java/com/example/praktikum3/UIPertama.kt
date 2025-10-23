@@ -29,6 +29,7 @@ import androidx.compose.ui.unit.sp
 
 
 @Composable
+//ActivitasPertama
 fun ActivitasPertama(modifier: Modifier){
     //ini column
     Column(modifier = Modifier.padding(top=100.dp)

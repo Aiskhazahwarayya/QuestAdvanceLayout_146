@@ -52,7 +52,9 @@ fun ActivitasPertama(modifier: Modifier){
             colors = CardDefaults.cardColors(containerColor = Color.DarkGray
             )
         ){
-            Row() {
+            Row(verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier
+                    .padding(10.dp)) {
                 //logoumy
                 val gambar = painterResource(R.drawable.logoumy)
                 //Image

@@ -90,6 +90,9 @@ fun ActivitasPertama(modifier: Modifier){
                 .padding(all = 12.dp),
             colors = CardDefaults.cardColors(containerColor = Color.Blue)
         ) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+
+            }
 
         }
 

@@ -92,7 +92,9 @@ fun ActivitasPertama(modifier: Modifier){
                 .padding(all = 12.dp),
             colors = CardDefaults.cardColors(containerColor = Color.Blue)
         ) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
+            Row(verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier
+                    .padding(10.dp)) {
                 val gambar = painterResource(R.drawable.logoumy)
                 Image(
                     painter = gambar,
@@ -131,7 +133,9 @@ fun ActivitasPertama(modifier: Modifier){
                 .padding(all = 12.dp),
             colors = CardDefaults.cardColors(containerColor = Color.Red)
         ) {
-            Row(verticalAlignment = Alignment.CenterVertically) {
+            Row(verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier
+                    .padding(10.dp)) {
                 val gambar = painterResource(R.drawable.logoumy)
                 Image(
                     painter = gambar,
